@@ -1,0 +1,21 @@
+Package: VariantAnnotation
+Title: S4 Classes for Genetic Variant Representation
+Version: 0.1.0
+Authors@R: person(given = "Alberto", 
+                  family = "De Benedictis", 
+                  email = "alberto.debenedictis@studenti.unimi.it", 
+                  role = c("aut", "cre"))
+Description: Provides S4 classes for different types of genetic 
+    variants (SNVs, insertions, deletions, etc.) with annotation.
+License: GPL-3
+Depends: R (>= 4.5.0), methods, GenomicRanges (>= 1.40.0), IRanges
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2025-06-06 12:31:04 UTC; alberto
+biocViews: VariantAnnotation, Sequencing, Coverage
+Author: Alberto De Benedictis [aut, cre]
+Maintainer: Alberto De Benedictis <alberto.debenedictis@studenti.unimi.it>
